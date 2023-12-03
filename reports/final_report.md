@@ -28,15 +28,15 @@ During the assignment I will be using the MovieLens dataset for this purpose. It
 
 In most of the cases the rating is either neutral or slightly positive. **The data is properly distributed** and the big chunk of ratings is between 3 and 5 which means people are not very hard towards rating.
 
-![](figures\ratings.png "Ratings.")
+![](figures/ratings.png "Ratings.")
 
 We can see that big amount of items were not rated, or have less than 20 ratings. **This may complicate the prediction for collaborative filtering**, because only connection between users and items would be used.
 
-![](figures\dist_rate.png "Rating distribution.")
+![](figures/dist_rate.png "Rating distribution.")
 
 We can see that many users rated less than 60 films, while **the minimumn number of ratings given by a user is 20**. Therefore, by construction, this dataset allows to build prediction model based on user preferences for each user.
 
-![](figures\dist_user.png "User distribution.")
+![](figures/dist_user.png "User distribution.")
 
 ### Preprocessing
 
