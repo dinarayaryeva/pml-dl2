@@ -21,20 +21,13 @@ Your assignment is to create a recommender system of movies for users:
 ```bash
 git clone https://github.com/dinarayaryeva/pml-dl2.git
 ```
-<!-- ### Install requirements
+### Install requirements
 ```
 pip install -r requirements.txt
 ```
-### Transform data
-```bash
-python src/data/make_dataset.py
-```
-### Train model
+
+### Evaluate model based on the data
 
 ```bash
-python src/models/train_model.py
+python benchmark/evaluate.py
 ```
-
-### Make predictions
-```bash
-python src/models/predict_model.py -->
